@@ -1,0 +1,427 @@
+body {
+    width: 100vw;
+    margin: 0px;
+    background-color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(66, 65, 65);    
+    box-sizing: border-box;
+}
+
+
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    height: 64px;
+    display: inline-flex;
+    justify-content: space-between;    
+    background-color: white;
+    color: lightgrey;
+    align-items: center;    
+}
+
+header div {
+    display: flex;
+}
+
+div#h\.left {
+    padding-left: 24px;
+}
+
+div#h\.right {
+    padding-right: 8px;
+}
+header img {
+    width: 40px;
+}
+h2#h\.colmar {
+    line-height: 32px;
+    color:rgb(66, 65, 65);
+}
+
+
+h2#h\.academy {
+    font-weight: lighter;
+    line-height: 32px;
+    color:rgb(148, 141, 141);
+}
+
+header a:hover{
+    background-color:rgb(66, 65, 65);
+    color: white;
+}
+main {
+    padding-top: 64px;
+}
+
+header h3 a {
+    text-decoration: none;
+    color: rgb(66, 65, 65);
+    font-weight: lighter;
+    margin-right: 16px;
+}
+
+#sec1{
+    display: flex;
+    margin:0px;
+    width: 100%;
+    padding: 32px 0px;
+}
+#sec1 img{
+    width: 50vw;
+    padding-left: 24px;
+    
+}
+
+#sec1right {
+    padding-left: 24px;
+    font-size: 1rem;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sec1 p {
+    font-weight: bolder;
+}
+
+#starthere{
+    background-color: rgb(128, 126, 126);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding:8px 0px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color:white ;
+    color: rgb(117, 115, 115);  
+    padding: 5px;  
+}
+
+
+#sec2{
+    display: flex;
+    width: 100vw;    
+    background-color: rgb(241, 239, 239);
+}
+
+#sec2left  {
+    width: 50vw;
+    margin: 0px;
+    padding: 32px 24px;
+    border-right: 1px solid rgb(148, 141, 141);
+    
+}
+
+#sec2left img {
+    width: 50vw;
+}
+
+#sec2right{
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    width: 40vw;
+    
+}
+
+#sec2right div{
+    display:flex;
+    flex-direction: row; 
+    padding: 16px;
+
+       
+}
+
+#sec2right a{
+    color: blue;
+}
+#sec2right img{
+    width: 35%;
+}
+
+#sec2right1 {
+    padding-top: 16px;
+}
+
+div#sec2right2 {
+    padding-top: 16px;
+}
+
+div#sec2right3 {
+    padding-top: 16px;
+}
+div#sec2h4div{
+    display: block;
+    padding: 8px;
+}
+
+#sec3 {
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: rgb(226, 222, 222);
+}
+
+#sec3 h1{
+    text-align: center;
+    padding: 32px 0px 16px 0px;
+    margin: 0px;
+}
+
+.sec3main {
+    margin: 16px 54px;
+    display: flex;
+}
+
+ 
+
+ .col {
+     display: flex;
+     flex-direction: column;    
+     margin: 0px 16px; 
+ }
+ .col img {
+     width: 100%;     
+ }
+
+ .col div {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 32px;
+}
+
+ .col div div{
+     background-color: white;
+     padding: 16px 16px 24px 16px;
+ }
+
+ .col h4 {
+     margin: 0px 0px 8px 0px;
+ }
+
+ .col p{
+     margin: 0px 0px;
+     padding: 8px 0px;
+ }
+
+ #sec4 {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     padding-top: 32px;
+     background-color: rgb(233, 231, 231);
+ }
+
+ #sec4main {
+     display: flex;
+     padding: 32px 24px;
+ }
+
+
+ #sec4col1  {
+     display: flex;
+     flex-direction: column;
+     width: 60%;
+     text-align: left;
+ }
+
+ #sec4col2 {
+     width: 40%;
+     display: flex;
+     flex-direction: column;
+     padding-left: 24px;
+ }
+ #sec4col2 div{
+     display: flex;
+     padding: 16px;
+    
+ }
+
+ #sec4main img {
+     width: 35%;
+     height: auto;
+ }
+
+ .sec2note {
+     display: flex;
+     flex-direction: column;
+     text-align: left;
+ }
+
+ footer{
+     display: flex;
+     justify-content: space-between;
+     padding: 16px 24px;
+     background-color: rgb(233, 231, 231);
+     color: gray;
+    border-top: 1px solid grey;
+ }
+
+ #footerright{
+     display: flex;
+     flex-direction: row;
+ }
+ #footerright a {
+     color: gray;
+     padding-right: 8px;
+ }
+ #mobileheader {
+     display: none;
+    }
+
+ @media only screen  and (max-width:768px) {
+     header {
+         width: 100vw;
+         display: flex;
+     }
+     #mobileheader {
+         z-index: 11;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         flex: 1 1;
+         padding: 0px 10px;
+         height: 64px;
+         width: 100vw;
+     }
+
+     #h.left img {
+         display: none;
+     }
+      header h2, h3 {
+         display: none;
+     }
+           
+      #mobileheader a{
+          width: 40px;
+      }
+      div#h\.left img {
+          display: none;
+      }
+
+      a:hover {
+          background-color: white;
+          
+      }
+
+       a img:hover{
+        background-color: white;
+      }
+
+      #sec1 {
+          display: block;
+          width: 100vw;
+          padding: 0px;
+      }
+
+      #sec1 img {
+          width: 100%;
+          margin: 3px;
+          padding: 0px;
+      }
+
+      #sec1 div {
+          width: 100%;
+          padding: 32px 16px;
+      }
+
+       #sec2left {
+          display: none;
+      }
+
+      #sec2right {
+          display: block;
+          width: 100%;
+          padding: 16px;
+      }
+
+      #sec2right div {
+          display: block;
+      }
+
+       #sec2right div img {
+          width: 100%;
+          height: auto;
+      }
+
+      #sec3 {
+          display: block;
+      }
+
+      #sec3 h1{
+          padding: 32px 0px 8px 0px;
+
+      }
+
+      .sec3main {
+          display: block;
+          padding-top: 8px;
+          margin: 0px 16px;
+      }
+
+      .col img {
+          display: none;
+      } 
+
+      .col p {
+          display: none;
+      }
+
+      .col div div {
+          background-color: rgb(184, 181, 181);
+          margin: 0px;
+      }
+
+      .col div {
+          margin-bottom: 8px;
+      }
+      .col h4{
+          width: 100%;
+          font-size: 1.3rem;
+      }
+
+      #sec4 {
+          display: block;
+          margin: 0%;
+      }
+
+      #sec4main {
+          padding: 16px 16px 24px 16px;
+      }
+      #sec4 h1{
+          margin: 0%;
+      }
+
+      #sec4col1 div {
+          display: none;
+      }
+
+      #sec4col1 {
+          width: 100%;          ;
+      }
+
+      #sec4col1 video {
+          width: 100%;
+          height: auto;
+          
+      }
+
+      #sec4col2 {
+          display: none;
+      }
+
+      footer {
+          display: inline-flex;
+      }
+
+ }
